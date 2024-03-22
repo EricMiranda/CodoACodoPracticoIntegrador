@@ -1,0 +1,12 @@
+/* footer{
+} */
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.iconColor{
+color: #382929;
+}
