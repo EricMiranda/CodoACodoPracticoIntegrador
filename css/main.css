@@ -7,3 +7,31 @@ body {
 margin: 0;
 margin-bottom: 40px;
 }
+header{
+    background-image: url("../img/backgroundHeader.jpeg");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Menu{
+    text-align: right;
+}
+#Menu ul{
+    margin-top: 0px;
+}
+#Menu li{
+        display: inline;
+}
+#Menu li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 1.3rem;
+}
+#Title{
+    text-align: center;
+    
+    color: #fff;
+    
+    height: 180px;
+    font-size: 2rem;
+}
