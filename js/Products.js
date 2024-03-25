@@ -3,7 +3,7 @@ function DrawProducts()
     let content = document.getElementById("Content");
     let products = GetAllProducts();
     let elements = "";
-    products.forEach((p) => elements += "<div><img src=\""+p.Path+"\" alt=\"\"><p>"+p.Description+"</p></div>" );
+    products.forEach((p) => elements += "<div><img loading=\"lazy\" src=\""+p.Path+"\" alt=\"\"><p>"+p.Description+"</p></div>" );
 
     content.innerHTML = elements;
 }

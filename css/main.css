@@ -8,9 +8,20 @@ margin: 0;
 margin-bottom: 40px;
 }
 header{
-    background-image: url("../img/backgroundHeader.jpeg");
+    color: #fff;
+    background-color: #231f20;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
+#Logo{
+    height: 100%;
+    float: left;
+}
+h1{ 
+    text-align:center;
+    display: initial;
+    width:100%; 
+   }
 #Menu{
     text-align: right;
 }
@@ -29,9 +40,7 @@ header{
 }
 #Title{
     text-align: center;
-    
-    color: #fff;
-    
     height: 180px;
     font-size: 2rem;
+    text-shadow: 1px 1px 2px #fff, 0 0 1em #000, 0 0 0.2em #fff;
 }
